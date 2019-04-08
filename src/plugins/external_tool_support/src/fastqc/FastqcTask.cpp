@@ -49,10 +49,8 @@ const QMap<FastQCParser::ErrorType, QString> FastQCParser::initWellKnownErrors()
 
 const QMap<FastQCParser::ErrorType, QString> FastQCParser::WELL_KNOWN_ERRORS = initWellKnownErrors();
 
-FastQCParser::FastQCParser(const QString& inputFile) :
-                                         ExternalToolLogParser(),
-                                         progress(-1),
-                                         inputFile(inputFile) {}
+FastQCParser::FastQCParser(const QString& _inputFile) :
+        ExternalToolLogParser(), progress(-1), inputFile(inputFile) {}
 
 void FastQCParser::parseErrOutput( const QString& partOfLog ) {
     lastPartOfLog = partOfLog.split(QRegExp("(\n|\r)"));

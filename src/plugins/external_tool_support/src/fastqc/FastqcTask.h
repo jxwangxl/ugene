@@ -65,7 +65,7 @@ private:
 
 class FastQCParser : public ExternalToolLogParser {
 public:
-    FastQCParser(const QString& _inputFile);
+    FastQCParser(const QString& inputFile);
 
     void parseErrOutput(const QString& partOfLog) override;
     int getProgress() override;
