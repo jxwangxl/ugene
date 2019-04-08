@@ -36,7 +36,6 @@
 #define __GL2PS_H__
 
 #include <stdio.h>
-#include <stdlib.h>
 
 /* Define GL2PSDLL at compile time to build a Windows DLL */
 

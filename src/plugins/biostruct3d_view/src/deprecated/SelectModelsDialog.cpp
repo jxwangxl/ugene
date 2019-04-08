@@ -20,10 +20,12 @@
  */
 
 #include "SelectModelsDialog.h"
-#include <QMessageBox>
-#include <cassert>
 #include "SettingsDialog.h"
+
+#include <cassert>
+
 #include <QPushButton>
+
 #include <U2Gui/HelpButton.h>
 
 namespace U2 {

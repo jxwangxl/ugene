@@ -24,13 +24,11 @@
 #include "BioStruct3DGLWidget.h"
 
 #include <U2Core/GObject.h>
-#include <U2Core/BaseDocumentFormats.h>
 #include <U2Core/DocumentModel.h>
 #include <U2Core/GObjectTypes.h>
 #include <U2Core/GObjectUtils.h>
 #include <U2Core/DNASequenceObject.h>
 #include <U2Core/BioStruct3DObject.h>
-#include <U2Core/DocumentSelection.h>
 #include <U2Core/LoadRemoteDocumentTask.h>
 #include <U2Core/U2SafePoints.h>
 
@@ -41,9 +39,6 @@
 #include <U2View/ADVSequenceObjectContext.h>
 #include <U2View/ADVConstants.h>
 #include <U2View/ADVSingleSequenceWidget.h>
-
-#include <QMessageBox>
-#include <QMenu>
 
 namespace U2 {
 

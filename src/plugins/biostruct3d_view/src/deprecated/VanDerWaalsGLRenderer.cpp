@@ -22,10 +22,6 @@
 #include <QtOpenGL>
 #include <time.h>
 
-#include <U2Core/BioStruct3D.h>
-#include <U2Core/Log.h>
-#include <U2Algorithm/MolecularSurface.h>
-
 #include "GraphicUtils.h"
 #include "BioStruct3DGLWidget.h"
 #include "BioStruct3DColorScheme.h"

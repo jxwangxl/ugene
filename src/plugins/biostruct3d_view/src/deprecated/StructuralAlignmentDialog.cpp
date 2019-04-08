@@ -21,7 +21,6 @@
 
 #include <QMessageBox>
 
-#include <U2Algorithm/StructuralAlignmentAlgorithm.h>
 #include <U2Algorithm/StructuralAlignmentAlgorithmFactory.h>
 #include <U2Algorithm/StructuralAlignmentAlgorithmRegistry.h>
 
@@ -33,7 +32,6 @@
 #include <U2Core/U2DbiRegistry.h>
 #include <U2Core/U2OpStatusUtils.h>
 #include <U2Core/U2SafePoints.h>
-#include <QPushButton>
 
 #include <U2Gui/HelpButton.h>
 

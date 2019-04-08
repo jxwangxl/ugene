@@ -24,7 +24,6 @@
 
 #include <U2Core/Log.h>
 
-#include <QColor>
 #include <QtOpenGL>
 // include this for proper cross-platform including of glu.h
 #include "GraphicUtils.h"

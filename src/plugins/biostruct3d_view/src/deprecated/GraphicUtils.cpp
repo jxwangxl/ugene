@@ -23,9 +23,7 @@
 #include <U2Algorithm/GeomUtils.h>
 #include <math.h>
 #include "GraphicUtils.h"
-#include <U2Core/Log.h>
 
-#include <U2Core/BioStruct3D.h>
 #include "BioStruct3DColorScheme.h"
 
 
